@@ -1,0 +1,150 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+#wrapper{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    background: rgb(27, 27, 27);
+}
+
+#left{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#right{
+    width: 60%;
+}
+
+#signin{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    padding-bottom: 16px;
+}
+#signin form{
+    width: 80%;
+    padding-bottom: 48px;
+}
+
+#signin .logo{
+    margin-bottom: 70px;
+}
+
+#signin .logo img{
+    width: 300px;
+}
+
+#signin label{
+    font-size: 14px;
+    color: #fff;
+}
+
+#signin .text-input{
+    margin-bottom: 20px;
+    width: 100%;
+    border-radius: 2px;
+    background: rgb(27, 27, 27);
+    border: 1px solid gray;
+    padding: 6px 16px;
+}
+#signin #links{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: center;
+    padding-bottom: 20px;
+}
+#signin #links a{
+    text-decoration: none;
+    padding:10px 0;
+    font-size: 13px;
+    color: rgb(55, 103, 199);
+}
+ #main-footer{
+    width: 50%;
+    font-size: 10px;
+    text-align: center;
+    color: rgb(155, 155, 155);
+    padding-top: 60px;
+}
+#main-footer a{
+color: rgb(155, 155, 155);
+
+}
+
+
+.primary-btn{
+    padding: 10px 16px;
+    display: block;
+    border:0;
+    border-radius: 2px;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    text-align: center;
+    width: 100%;
+    background: rgb(55, 103, 199);
+}
+
+.hr-bar{
+    padding-bottom: 20px;
+    width: 80%;
+    color:rgb(98, 98, 98);
+}
+
+#signin .secondary-btn{
+    padding: 10px 16px;
+    display: block;
+    border:0;
+    border-radius: 2px;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    text-align: center;
+    width: 80%;
+    background: rgb(98, 98, 98);
+    text-decoration: none;
+}
+
+#showcase{
+    background: url(https://image.ibb.co/cO9Lxq/login-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#showcase .showcase-text{
+    font-size: 40px;
+    color: #fff;
+    font-weight: 300;
+    padding-bottom: 20px;
+}
+
+#showcase .secondary-btn{
+    padding: 10px 16px;
+    display: block;
+    border:0;
+    border-radius: 2px;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    text-align: center;
+    width: 80%;
+    background: rgb(98, 98, 98);
+    margin: auto;
+    text-decoration: none;
+}
+
