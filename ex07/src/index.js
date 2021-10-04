@@ -7,10 +7,7 @@ const range = {
 };
 // Only change code below this line
 
-const middle = (range) => {
-    const { max, min } = range;
-    return (max + min) / 2.0;
-}
+const middle = ({ max, min }) => (max + min) / 2.0;
 
 // Only change code above this line
 console.log(middle(range));
